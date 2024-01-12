@@ -45,3 +45,9 @@ En graficos.txt nos encontraremos con información acerca de los dos scripts PYT
 
 
 
+## Despliegue en GitHub Pages
+
+El despliegue de la documentación se realizará empleando el pipeline de gitlab, con el cual los archivos creados anteriormente y que se encuentran como artifacs se almacenarán en un repositorio de github para exponerlo en Github Pages.
+###Repositorio
+GitHub: https://github.com/FranME19/FranME19.github.io
+
