@@ -11,7 +11,7 @@ Luego definimos las etapas del pipeline en la sección stages, en la que encontr
 * En la etapa clonar, se clona un repositorio de GitLab utilizando un token de acceso. Los archivos clonados se almacenan como artefactos para su uso en etapas posteriores del pipeline.
 * En la etapa grafico, se ejecuta un script de Python llamado grafica.py. El resultado de este script, un archivo llamado grafica.png, se almacena como un artefacto.
 * En la etapa documentacion, se ejecuta otro script de Python llamado documentacion.py y se convierte un archivo README.md a HTML utilizando pandoc. Los archivos resultantes se almacenan como artefactos.
-
+* En la etapa io, ejecutaremos una serie de comandos para subir los artifacts creados en las etapas anteriores a un repositorio de GitHub, donde se expondra dicha documentacion en GitHub Pages.
 
 
 
@@ -48,6 +48,9 @@ En graficos.txt nos encontraremos con información acerca de los dos scripts PYT
 ## Despliegue en GitHub Pages
 
 El despliegue de la documentación se realizará empleando el pipeline de gitlab, con el cual los archivos creados anteriormente y que se encuentran como artifacs se almacenarán en un repositorio de github para exponerlo en Github Pages.
-###Repositorio
+
+### Repositorio
+
 GitHub: https://github.com/FranME19/FranME19.github.io
+url: https://franme19.github.io/
 
